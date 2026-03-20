@@ -131,7 +131,7 @@ const SCHEMA = {
 
 export async function processMealPhotos(
   client: OpenAI,
-  photos: MealPhoto[]
+  photos: MealPhoto[],
 ): Promise<MealResponse> {
   const images = photos.map<OpenAI.Responses.ResponseInputImage>(photo => ({
     type: 'input_image',
