@@ -12,7 +12,7 @@ import {generateMealIllustration} from '../prompt/illustration';
 import {processMealPhotos} from '../prompt/mealInfo';
 import type {MealInfo, MealPhoto, StoredPhoto} from '../types';
 
-// eslint-disable-next-line require-await
+// oxlint-disable-next-line require-await
 async function recordController(fastify: FastifyInstance) {
   const {config, log, prisma, openai, r2} = fastify;
 

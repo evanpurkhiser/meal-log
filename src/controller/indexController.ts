@@ -1,6 +1,6 @@
 import type {FastifyInstance} from 'fastify';
 
-// eslint-disable-next-line require-await
+// oxlint-disable-next-line require-await
 async function indexController(fastify: FastifyInstance) {
   const {prisma} = fastify;
 
