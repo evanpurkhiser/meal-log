@@ -6,8 +6,8 @@ import {PinoLoggerOptions} from 'fastify/types/logger';
 import {configPlugin} from './config';
 import {openaiPlugin} from './openai-plugin';
 import {prismaPlugin} from './prisma-plugin';
-import router from './router';
 import {r2Plugin} from './r2-plugin';
+import router from './router';
 
 async function boot() {
   const env = process.env.NODE_ENV ?? 'production';

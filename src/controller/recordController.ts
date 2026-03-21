@@ -1,10 +1,11 @@
 import {PutObjectCommand} from '@aws-sdk/client-s3';
 import type {FastifyInstance} from 'fastify';
 import sum from 'lodash/sum';
-import {randomUUID} from 'node:crypto';
 import prettyBytes from 'pretty-bytes';
 import sharp from 'sharp';
 import unzipper from 'unzipper';
+
+import {randomUUID} from 'node:crypto';
 
 import {Day} from '../prisma';
 import {generateMealIllustration} from '../prompt/illustration';
