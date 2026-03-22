@@ -1,5 +1,7 @@
 # Meal Log
 
+[![build](https://github.com/evanpurkhiser/meal-log/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/evanpurkhiser/meal-log/actions/workflows/main.yml)
+
 Small personal side project designed to work with iOS shortcuts that help
 easily track what I am eating.
 
