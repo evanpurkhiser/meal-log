@@ -1,4 +1,4 @@
-import type OpenAI from 'openai';
+import type {OpenAI} from 'openai';
 
 const PROMPT_STYLE = `
 You are an accomplished graphic designer creating simple illustrations of food

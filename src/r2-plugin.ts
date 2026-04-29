@@ -7,7 +7,7 @@ declare module 'fastify' {
   }
 }
 
-export const r2Plugin = fp(async server => {
+export const r2Plugin = fp(server => {
   const {config} = server;
 
   const client = new S3Client({
