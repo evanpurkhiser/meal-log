@@ -7,7 +7,7 @@ import unzipper from 'unzipper';
 
 import {randomUUID} from 'node:crypto';
 
-import {Day} from '../prisma';
+import type {Day} from '../prisma';
 import {generateMealIllustration} from '../prompt/illustration';
 import {processMealPhotos} from '../prompt/mealInfo';
 import type {MealInfo, MealPhoto, StoredPhoto} from '../types';

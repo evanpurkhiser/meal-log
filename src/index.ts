@@ -1,7 +1,8 @@
 import multipart from '@fastify/multipart';
 import {program} from 'commander';
-import fastify, {FastifyLoggerOptions} from 'fastify';
-import {PinoLoggerOptions} from 'fastify/types/logger';
+import type {FastifyLoggerOptions} from 'fastify';
+import fastify from 'fastify';
+import type {PinoLoggerOptions} from 'fastify/types/logger';
 
 import {configPlugin} from './config';
 import {openaiPlugin} from './openai-plugin';

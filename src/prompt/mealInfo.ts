@@ -1,4 +1,4 @@
-import OpenAI from 'openai';
+import type OpenAI from 'openai';
 
 import type {FoodCategory, MealInfo, MealPhoto, MealResponse} from '../types';
 
