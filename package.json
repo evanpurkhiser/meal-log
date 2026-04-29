@@ -8,7 +8,7 @@
     "dev": "NODE_ENV=development tsx watch src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "lint": "oxlint src/**/*.ts",
+    "lint": "oxlint src/",
     "format": "oxfmt .",
     "format:check": "oxfmt --check ."
   },
@@ -32,11 +32,11 @@
     "unzipper": "^0.12.3"
   },
   "devDependencies": {
-    "@evanpurkhiser/oxc-config": "^0.5.0",
+    "@evanpurkhiser/oxc-config": "^0.8.0",
     "@types/node": "^22.13.10",
     "fastify-tsconfig": "^3.0.0",
-    "oxfmt": "^0.41.0",
-    "oxlint": "^1.56.0",
+    "oxfmt": "^0.47.0",
+    "oxlint": "^1.62.0",
     "prisma": "^6.5.0",
     "tsx": "^4.19.3",
     "typescript": "^5.7.2"
