@@ -1,3 +1,5 @@
 dist/
 src/prisma/
 prisma/dev*
+
+node_modules/
