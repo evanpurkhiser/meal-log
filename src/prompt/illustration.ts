@@ -30,7 +30,7 @@ export async function generateMealIllustration(openai: OpenAI, prompt: string) {
     response_format: 'b64_json',
   });
 
-  const b64 = response.data[0].b64_json;
+  const b64 = response.data?.[0]?.b64_json;
 
   if (b64 === undefined) {
     return null;
