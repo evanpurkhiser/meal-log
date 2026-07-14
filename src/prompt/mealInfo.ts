@@ -4,7 +4,7 @@ import type {FoodCategory, MealInfo, MealPhoto, MealResponse} from '../types';
 
 const PROMPT = `
 You are my personal meal categorizer and analyst. Your objective is to
-categorize the given photos of food I ate in the past 24 hours. 
+categorize the given photos of food I ate in the past 24 hours.
 
 ## RULES
 

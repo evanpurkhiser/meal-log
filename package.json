@@ -4,16 +4,6 @@
   "version": "1.0.0",
   "license": "MIT",
   "author": "Evan Purkhiser <evanpurkhiser@gmail.com>",
-  "devEngines": {
-    "runtime": {
-      "name": "node",
-      "version": "^24.15.0"
-    },
-    "packageManager": {
-      "name": "pnpm",
-      "version": "11.0.0"
-    }
-  },
   "scripts": {
     "dev": "NODE_ENV=development tsx watch src/index.ts",
     "build": "tsc",
@@ -50,5 +40,15 @@
     "prisma": "^6.5.0",
     "tsx": "^4.19.3",
     "typescript": "^5.7.2"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "11.0.0"
+    },
+    "runtime": {
+      "name": "node",
+      "version": "^24.15.0"
+    }
   }
 }

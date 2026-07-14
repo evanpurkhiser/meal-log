@@ -87,7 +87,7 @@ async function recordController(fastify: FastifyInstance) {
 
   async function recordDay(photos: MealPhoto[]) {
     if (photos.length === 0) {
-      log.warn('No photos recoreded for today...');
+      log.warn('No photos recorded for today...');
       return;
     }
 
