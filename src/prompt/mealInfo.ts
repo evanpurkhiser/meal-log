@@ -141,7 +141,7 @@ export async function processMealPhotos(
   const dates = photos.map(photo => photo.dateTaken).join('\n');
 
   const response = await client.responses.create({
-    model: 'o4-mini',
+    model: 'gpt-5.6-terra',
     text: {format: SCHEMA},
     input: [
       {
